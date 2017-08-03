@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ClassLibrary1",
+    "\\Galaxy",
     "\\GalSim"
   ],
-  "SelectedNode": "\\GalSim\\GalSim.csproj",
+  "SelectedNode": "\\Galaxy",
   "PreviewInSolutionExplorer": false
 }
