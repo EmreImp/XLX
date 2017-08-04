@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalSim", "GalSim.csproj", "{95C79A2C-CC08-4F02-8B2D-05596872F414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy", "..\ClassLibrary1\Galaxy.csproj", "{2EE4BDB7-9209-42D1-A622-70AE6D3C9BF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy", "..\Galaxy\Galaxy.csproj", "{2EE4BDB7-9209-42D1-A622-70AE6D3C9BF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
