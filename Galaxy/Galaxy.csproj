@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="IConstants.cs" />
     <Compile Include="Markettype.cs" />
+    <Compile Include="Pilot.cs" />
     <Compile Include="Planet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tradegood.cs" />

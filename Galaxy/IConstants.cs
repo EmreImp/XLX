@@ -6,31 +6,29 @@ using System.Threading.Tasks;
 
 namespace Galaxy
 {
+    public enum WHERE
+    {
+        FLYING,
+        LANDED,
+        MARKET,
+        TECH,
+    }
+    public enum HIT_RESULTS
+    {
+        DAMAGED,
+        PARRIED,
+        DODGED,
+        BLOCKED,
+        MISSED
+    }
+
     public class IConstants
     {
-
-        enum HIT_RESULTS
-        {
-            DAMAGED,
-            PARRIED,
-            DODGED,
-            BLOCKED,
-            MISSED
-        }
-
-        enum WHERE
-        {
-            FLYING,
-            LANDED,
-            MARKET,
-            TECH,
-        }
-
         static int galsize = 256;
         public static int AlienItems = 16;
         static int numforLave = 7;
-        static int maxfuel = 70;
-        static int fuelcost = 2;
+        public static int maxfuel = 70;
+        public static int fuelcost = 2;
         public static int lasttrade { get; set; }  = AlienItems;
         static string pairs = "..LEXEGEZACEBISOUSESARMAINDIREA.ERATENBERALAVETIEDORQUANTEISRION"; /* Dots should be nullprint characters */
         public static string[] unitnames = { "t", "kg", "g" };

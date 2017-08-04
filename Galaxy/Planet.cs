@@ -78,12 +78,15 @@ namespace Galaxy
         int productivity; /* Two byte */
         int radius; /* Two byte (not used by game at all) */
         int[] goatsoupseed = new int[4];
-        Markettype market;
+        public Markettype market;
         /**
          * Used to save the planet string properties globally for this galaxy.
          */
         public int[] rnd_seed = new int[4];
-        String name;
+        public string name;
+
+        public Planet()
+        { }
 
         public Planet(int x, int y, int economy, int govtype, int techlevel, int population, int productivity, int radius, int[] seed, String name)
         {
@@ -104,7 +107,7 @@ namespace Galaxy
         /**
          * Print data for given system 
          **/
-        void info(bool compressed)
+        public void info(bool compressed)
         {
             StringBuilder str = new StringBuilder("");
             if (compressed)

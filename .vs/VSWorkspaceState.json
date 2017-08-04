@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ClassLibrary1",
     "\\Galaxy",
-    "\\GalSim"
+    "\\GalSim",
+    "\\GalSim\\bin\\Debug"
   ],
-  "SelectedNode": "\\Galaxy",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\README.md",
+  "PreviewInSolutionExplorer": true
 }

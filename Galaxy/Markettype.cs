@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Galaxy
 {
-    class Markettype
+    public class Markettype
     {
-        int[] quantity = new int[IConstants.lasttrade. + 1];
+        public int[] quantity = new int[IConstants.lasttrade. + 1];
 
-        int[] price = new int[IConstants.lasttrade + 1];
+        public int[] price = new int[IConstants.lasttrade + 1];
 
         /* printout according to the pilot */
         public void info(int[] shipshold)
